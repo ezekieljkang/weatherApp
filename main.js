@@ -1,4 +1,4 @@
-const apiKey = '4e5a4697f8684c369db13254240604';
+const apiKey = process.env.api_key;
 const url = 'https://api.weatherapi.com/v1';
 const searchLocation = document.querySelector('#locationInput');
 const weatherForm = document.querySelector('#weatherForm');
